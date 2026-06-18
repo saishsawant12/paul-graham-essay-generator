@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Paul-Graham Style Essay Generator</title>
+    <style>
+      body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:2rem}
+      textarea{width:100%;min-height:120px}
+      #output{white-space:pre-wrap;background:#f8f8f8;padding:1rem;margin-top:1rem}
+      button{padding:0.5rem 1rem}
+    </style>
+  </head>
+  <body>
+    <h1>Essay Generator (inspired by Paul Graham)</h1>
+    <form id="form">
+      <label>Topic (one line):</label>
+      <input id="topic" name="topic" style="width:100%" placeholder="surprises of startups" />
+      <div style="margin-top:0.5rem">
+        <button id="gen">Generate Essay</button>
+      </div>
+    </form>
+
+    <div id="status"></div>
+    <div id="output"></div>
+
+    <script>
+      const form = document.getElementById('form')
+      const output = document.getElementById('output')
+      const status = document.getElementById('status')
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault()
+        output.textContent = ''
+        status.textContent = 'Generating...'
+        const topic = document.getElementById('topic').value || 'surprises of startups'
+        try{
+          const resp = await fetch('/generate', {
+            method: 'POST', headers: {'Content-Type':'application/json'},
+            body: JSON.stringify({topic})
+          })
+          const data = await resp.json()
+          if(resp.ok){
+            output.textContent = data.essay || JSON.stringify(data)
+          } else {
+            output.textContent = data.error || JSON.stringify(data)
+          }
+        }catch(err){
+          output.textContent = 'Request failed: '+err
+        }
+        status.textContent = ''
+      })
+    </script>
+  </body>
+</html>

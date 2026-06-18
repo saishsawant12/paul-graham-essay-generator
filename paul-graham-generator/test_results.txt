@@ -1,0 +1,174 @@
+Integration test run: 2026-06-16T06:27:03.451084Z
+
+---
+Topic: Why AI Will Change Education
+
+Retrieved Contexts (top 5):
+  1. score=0.5530 title='The-Best-Essay'
+     ] If you'd asked me 10 years ago, I'd have predicted that schools would continue to teach hacking the test for centuries. But now it seems plausible that students will soon be taught individually by AIs, and that exams will be replaced by ongoing, invisible micro-assessments.
+  2. score=0.4300 title='The-Best-Essay'
+     Sometimes it's systems that lie to you. For example, the educational systems in most countries train you to win by
+  3. score=0.4184 title='Why-Smart-People-Have-Bad-Ideas'
+     But that, I'm convinced, is just the effect of training. Or more precisely, the effect of grading. To make grading efficient, everyone has to solve the same problem, and that means it has to be decided in advance. It would be great if schools taught students how to choose problems as well as how to 
+  4. score=0.4180 title='Undergraduation'
+     In theory a liberal education is not supposed to supply job training. But everyone knows this is a bit of a fib. Hackers at every college learn practical skills, and not by accident.
+  5. score=0.4121 title='News-from-the-Front'
+     Knowing that test is coming makes us work a lot harder to get the right answers than anyone would if they were merely hiring people. We can't afford to have any illusions about the predictors of success. And what we've found is that the variation between schools is so much smaller than the variation
+
+Generated Prompt:
+You are an essay writer inspired by Paul Graham's style. Write an original essay on the topic: 'Why AI Will Change Education'.
+
+Rules:
+1) Start with a surprising question.
+2) Use personal reasoning.
+3) Include examples.
+4) Build ideas progressively.
+5) End with an unexpected insight.
+6) Do not copy any essay text; be original.
+
+Use the following retrieved Paul Graham paragraphs as inspiration (do not copy):
+- (1) ] If you'd asked me 10 years ago, I'd have predicted that schools would continue to teach hacking the test for centuries. But now it seems plausible that students will soon be taught individually by AIs, and that exams will be replaced by ongoing, invisible micro-assessments.
+
+- (2) Sometimes it's systems that lie to you. For example, the educational systems in most countries train you to win by
+
+- (3) But that, I'm convinced, is just the effect of training. Or more precisely, the effect of grading. To make grading efficient, everyone has to solve the same problem, and that me
+
+Generated Essay (first 1000 chars):
+Why do we assume Why AI Will Change Education always follows the same rules?
+
+I used to think Why AI Will Change Education meant following a fixed script: do X, then Y. Over time I've learned that this script is often a trap.
+
+For example, consider this passage that inspired me: "Knowing that test is coming makes us work a lot harder to get the right answers than anyone would if they were merely hiring people. We can't afford to have any illusions about the predictors of success. And what we've found is that the variation between schools is so much smaller than the variation between individuals that it's negligible by comparison. We can learn more about someone in the firs". It shapes how I think about Why AI Will Change Education.
+
+For example, consider this passage that inspired me: "] If you'd asked me 10 years ago, I'd have predicted that schools would continue to teach hacking the test for centuries. But now it seems plausible that students will soon be taught individually by AIs,
+
+ctx_hash: 60dc24d9c2d1a1b38e7c16b7d7c174fb14ff809c
+prompt_hash: 5af9dc5b3492bae2d405c92aeca9582f281f8f32
+essay_hash: 8785387926598050f6786c08b7f9ef9af01eb92c
+
+---
+Topic: Why Startups Fail
+
+Retrieved Contexts (top 5):
+  1. score=0.7230 title='What-the-Bubble-Got-Right'
+     startups
+  2. score=0.6762 title='Why-Startups-Condense-in-America'
+     Startups are
+  3. score=0.6544 title='Founder-Control'
+     Want to start a startup?
+  4. score=0.6544 title='Do-Things-that-Dont-Scale'
+     Want to start a startup?
+  5. score=0.6544 title='Before-the-Startup'
+     Want to start a startup?
+
+Generated Prompt:
+You are an essay writer inspired by Paul Graham's style. Write an original essay on the topic: 'Why Startups Fail'.
+
+Rules:
+1) Start with a surprising question.
+2) Use personal reasoning.
+3) Include examples.
+4) Build ideas progressively.
+5) End with an unexpected insight.
+6) Do not copy any essay text; be original.
+
+Use the following retrieved Paul Graham paragraphs as inspiration (do not copy):
+- (1) startups
+
+- (2) Startups are
+
+- (3) Want to start a startup?
+
+- (4) Want to start a startup?
+
+- (5) Want to start a startup?
+
+Produce a single essay that follows the rules above. Keep it ~600-1200 words.
+
+
+Generated Essay (first 1000 chars):
+Why do we assume Why Startups Fail always follows the same rules?
+
+I used to think Why Startups Fail meant following a fixed script: do X, then Y. Over time I've learned that this script is often a trap.
+
+For example, consider this passage that inspired me: "Startups are". It shapes how I think about Why Startups Fail.
+
+For example, consider this passage that inspired me: "Want to start a startup?". It shapes how I think about Why Startups Fail.
+
+A useful heuristic is: find a tiny advantage, make it repeatable, and keep iterating. That ordering explains many surprising successes.
+
+(This relates to Why Startups Fail because it highlights a common pattern.)
+
+The surprising part is that the most reliable way to be original is to be boringly observant. The biggest leaps often follow from fixing small frictions.
+
+(This relates to Why Startups Fail because it highlights a common pattern.)
+
+ctx_hash: 3c2cd1cc2fafc66675ff015d8fca301477bd594a
+prompt_hash: e39c9182c3bf569153165fd560370298f34dbb5e
+essay_hash: 342df3dd23b8ce77f849f986cd55df2efe91c62c
+
+---
+Topic: Future of Programming
+
+Retrieved Contexts (top 5):
+  1. score=0.6765 title='You-Werent-Meant-to-Have-a-Boss'
+     Programmers
+  2. score=0.6249 title='Let-the-Other-95-of-Great-Programmers-In'
+     programming that is not merely the product of training.
+  3. score=0.6218 title='Undergraduation'
+     computer science
+  4. score=0.5589 title='Better-Bayesian-Filtering'
+     Future
+  5. score=0.5558 title='Undergraduation'
+     ? There are two main things you can do: become very good at programming, and learn a lot about specific, cool problems. These turn out to be equivalent, because each drives you to do the other.
+
+Generated Prompt:
+You are an essay writer inspired by Paul Graham's style. Write an original essay on the topic: 'Future of Programming'.
+
+Rules:
+1) Start with a surprising question.
+2) Use personal reasoning.
+3) Include examples.
+4) Build ideas progressively.
+5) End with an unexpected insight.
+6) Do not copy any essay text; be original.
+
+Use the following retrieved Paul Graham paragraphs as inspiration (do not copy):
+- (1) Programmers
+
+- (2) programming that is not merely the product of training.
+
+- (3) computer science
+
+- (4) Future
+
+- (5) ? There are two main things you can do: become very good at programming, and learn a lot about specific, cool problems. These turn out to be equivalent, because each drives you to do the other.
+
+Produce a single essay that follows the rules above. Keep it ~600-1200 words.
+
+
+Generated Essay (first 1000 chars):
+What if the obvious thing about Future of Programming is the wrong starting point?
+
+Early on I had a naive theory about Future of Programming. What changed was noticing small mismatches between our models and real behavior.
+
+For example, consider this passage that inspired me: "? There are two main things you can do: become very good at programming, and learn a lot about specific, cool problems. These turn out to be equivalent, because each drives you to do the other.". It shapes how I think about Future of Programming.
+
+For example, consider this passage that inspired me: "Programmers". It shapes how I think about Future of Programming.
+
+A useful heuristic is: find a tiny advantage, make it repeatable, and keep iterating. That ordering explains many surprising successes.
+
+(This relates to Future of Programming because it highlights a common pattern.)
+
+The surprising part is that the most reliable way to be original is to be boringly observant. The biggest leaps often follow from fixin
+
+ctx_hash: 6d6ddc020af1737d4baa4c3441121727f146a584
+prompt_hash: 6c44400ab09a8bb23747524482a67d19e93d2c41
+essay_hash: 97318ebd2c8e076a4bfee4677a11b6cf93be14c6
+
+=== Summary ===
+Retrieved contexts distinct: True
+Prompts distinct: True
+Essays distinct: True
+
+RESULT: PASS — topics produced different retrievals, prompts, and essays.

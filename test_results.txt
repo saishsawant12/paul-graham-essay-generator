@@ -1,0 +1,141 @@
+Integration test run: 2026-06-16T06:11:19.305097Z
+
+---
+Topic: Why AI Will Change Education
+
+Retrieved Contexts (top 5):
+  [NO CONTEXTS RETURNED]
+
+Generated Prompt:
+You are an essay writer inspired by Paul Graham's style. Write an original essay on the topic: 'Why AI Will Change Education'.
+
+Rules:
+1) Start with a surprising question.
+2) Use personal reasoning.
+3) Include examples.
+4) Build ideas progressively.
+5) End with an unexpected insight.
+6) Do not copy any essay text; be original.
+
+Use the following retrieved Paul Graham paragraphs as inspiration (do not copy):
+
+
+Produce a single essay that follows the rules above. Keep it ~600-1200 words.
+
+
+Generated Essay (first 1000 chars):
+What if the obvious thing about Why AI Will Change Education is the wrong starting point?
+
+I used to think Why AI Will Change Education meant following a fixed script: do X, then Y. Over time I've
+    learned that this script is often a trap. The reason is simple: the world is messier than
+    our tidy heuristics allow, and progress usually comes from noticing what the script misses.
+
+Consider a counterintuitive move: focusing on a marginal part of Why AI Will Change Education often uncovers leverage no one else is measuring.
+
+In one case, the path toward progress on Why AI Will Change Education began with admitting a silly assumption was wrong, then iteratively fixing it until the solution stuck.
+
+For example, people often treat Why AI Will Change Education as a checklist item; one team instead dug into a tiny user workflow and turned that insight into a durable advantage.
+
+To make sense of this, it's useful to think in layers. First, find the mismatch: what users do versus what produ
+
+ctx_hash: da39a3ee5e6b4b0d3255bfef95601890afd80709
+prompt_hash: 7e014ac7f9525e2ccfe8ff222c8ed95b897d72fb
+essay_hash: 7babb3edac90f7e16e76eca788567d0b94d1f762
+
+---
+Topic: Why Startups Fail
+
+Retrieved Contexts (top 5):
+  [NO CONTEXTS RETURNED]
+
+Generated Prompt:
+You are an essay writer inspired by Paul Graham's style. Write an original essay on the topic: 'Why Startups Fail'.
+
+Rules:
+1) Start with a surprising question.
+2) Use personal reasoning.
+3) Include examples.
+4) Build ideas progressively.
+5) End with an unexpected insight.
+6) Do not copy any essay text; be original.
+
+Use the following retrieved Paul Graham paragraphs as inspiration (do not copy):
+
+
+Produce a single essay that follows the rules above. Keep it ~600-1200 words.
+
+
+Generated Essay (first 1000 chars):
+What if the obvious thing about Why Startups Fail is the wrong starting point?
+
+I used to think Why Startups Fail meant following a fixed script: do X, then Y. Over time I've
+    learned that this script is often a trap. The reason is simple: the world is messier than
+    our tidy heuristics allow, and progress usually comes from noticing what the script misses.
+
+In one case, the path toward progress on Why Startups Fail began with admitting a silly assumption was wrong, then iteratively fixing it until the solution stuck.
+
+For example, people often treat Why Startups Fail as a checklist item; one team instead dug into a tiny user workflow and turned that insight into a durable advantage.
+
+Another story: an individual built a tiny tool around Why Startups Fail that solved an annoying edge-case — few noticed at first, but that small fix became the product's core.
+
+To make sense of this, it's useful to think in layers. First, find the mismatch: what users do versus what products assume. 
+
+ctx_hash: da39a3ee5e6b4b0d3255bfef95601890afd80709
+prompt_hash: 2cb0ad98240f7586ad3063e4fb44a7db5fa7aa68
+essay_hash: 041790df0fe62d594363fa6e3de858c4bd425c01
+
+---
+Topic: Future of Programming
+
+Retrieved Contexts (top 5):
+  [NO CONTEXTS RETURNED]
+
+Generated Prompt:
+You are an essay writer inspired by Paul Graham's style. Write an original essay on the topic: 'Future of Programming'.
+
+Rules:
+1) Start with a surprising question.
+2) Use personal reasoning.
+3) Include examples.
+4) Build ideas progressively.
+5) End with an unexpected insight.
+6) Do not copy any essay text; be original.
+
+Use the following retrieved Paul Graham paragraphs as inspiration (do not copy):
+
+
+Produce a single essay that follows the rules above. Keep it ~600-1200 words.
+
+
+Generated Essay (first 1000 chars):
+What if the obvious thing about Future of Programming is the wrong starting point?
+
+I used to think Future of Programming meant following a fixed script: do X, then Y. Over time I've
+    learned that this script is often a trap. The reason is simple: the world is messier than
+    our tidy heuristics allow, and progress usually comes from noticing what the script misses.
+
+Consider a counterintuitive move: focusing on a marginal part of Future of Programming often uncovers leverage no one else is measuring.
+
+In one case, the path toward progress on Future of Programming began with admitting a silly assumption was wrong, then iteratively fixing it until the solution stuck.
+
+For example, people often treat Future of Programming as a checklist item; one team instead dug into a tiny user workflow and turned that insight into a durable advantage.
+
+To make sense of this, it's useful to think in layers. First, find the mismatch: what users do versus what products assume. Second, exploit a small
+
+ctx_hash: da39a3ee5e6b4b0d3255bfef95601890afd80709
+prompt_hash: 91f5ea2a303e668a4c7fe90fc983c9719f815f8e
+essay_hash: 0cadce2b8b171312203dd5d184a4b0848abfc626
+
+=== Summary ===
+Retrieved contexts distinct: False
+Prompts distinct: True
+Essays distinct: True
+
+RESULT: FAIL — see reasons and suggestions below.
+
+Failure reasons:
+- Retrieved contexts contain identical hashes for different topics.
+
+Suggested fixes for identical retrievals:
+- Rebuild the FAISS index from more essays (increase corpus or include paragraph context).
+- Increase `top_k` or use a different embedding model for better semantic separation.
