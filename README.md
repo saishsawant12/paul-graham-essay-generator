@@ -1,5 +1,6 @@
 [![Integration Tests](https://github.com/OWNER/REPO/actions/workflows/integration-tests.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/integration-tests.yml)
 
+
 # Paul Graham Essay Generator — RAG Demo
 
 Project Overview
