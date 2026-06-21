@@ -9,6 +9,11 @@ try:
     from openai import OpenAI
 except Exception:
     OpenAI = None
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except Exception:
+    pass
 
 from embeddings import retrieve_context
 
